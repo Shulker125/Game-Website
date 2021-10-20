@@ -1,34 +1,63 @@
 <html>
-  <head>
-   <title> Download JAR Files </title>
+   <head>
+     <title> Download JAR Files </title>
   </head>
  <body>
    <div class="nav">
-     <div class="tab"><a> Tab 1</a> </div>
-     <div class="tab"><a> Tab 2 </a.</div>
-       <div class="tab"><a> Tab 3 </a></div>
-       <div class="tab"><a> Tab 4</a> </div>
-       <div class="tab"><a> Tab 5 </a></div>
-       <div class="tab"><a> Tab 6 </a></div>
+     <div class="tab"><a class="link"> Tab 1</a></div>
+     <div class="tab"><a class="link"> Tab 2</a></div>
+     <div class="tab"><a class="link"> Tab 3</a></div>
+     <div class="tab"><a class="link"> Tab 4</a></div>
+     <div class="tab"><a class="link"> Tab 5</a></div>
+     <div class="tab"><a class="link"> Tab 6</a></div>
    </div>
-   <h1 class="title"> Download JAR Files </h1>
-   
+       <div class="wrapper">
+         <div class="box title"> Game Site</div>
+         <div class="box"> 1</div>
+         <div class="box"> 1</div>
+         <div class="box"> 1</div>
+         <div class="box"> 1</div>
+         <div class="box"> 1</div>
+         <div class="box"> 1</div>
+         <div class="box"> 1</div>
+       </div>
+   <div class="space"> 1</div>
  </body>
 
  <style>
- .title {
-  position: relative;
-  top: 100px;
-  text-align: center;
-  }
    .tab {
      float: left;
      padding: 10px;
-     
    }
    .nav {
-     postion: fixed;
+     position: fixed;
      background-color: blue;
+     top: 0;
+     left: 0;
+     font-size: 25px;
+     width: 100%;
+     z-index: 100;
+   }
+   a:hover {
+     background-color: red;
+     cursor: pointer;
+     padding: 5px;
+   }
+   .title {
+     text-align: center;
+     grid-column: 1 / 5;
+     font-weight: bold;
+     font-size: 50px;
+   }
+   .wrapper {
+     position: relative;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     top: 70px;
+   }
+   .space {
+     position: relative;
+     top: 500px;
    }
  </style> 
 </html>
