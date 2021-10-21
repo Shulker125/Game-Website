@@ -1,0 +1,32 @@
+ body {
+     background-color: #1A1A1C;
+     color: white;
+   }
+   .tab {
+     float: left;
+     padding: 10px;
+   }
+   .nav {
+     position: fixed;
+     background-color: #6F2232;
+     top: 0;
+     left: 0;
+     font-size: 25px;
+     width: 100%;
+     z-index: 100;
+   }
+   .link {
+     padding: 5px;
+   }
+   .link:hover {
+     border-radius: 5px;
+     animation-name: navcolor;
+     animation-duration: 0.5s;
+     background-color: #C3083F;
+     cursor: pointer;
+     padding: 5px;
+   }
+@keyframes navcolor {
+     from{background-color: #6F2232}
+     to {background-color: #C3083F}
+   }
