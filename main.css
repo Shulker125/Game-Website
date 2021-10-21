@@ -17,16 +17,14 @@
    }
    .link {
      padding: 5px;
+     transition: background-color 0.5s;
+     border-radius: 5px;
    }
    .link:hover {
-     border-radius: 5px;
-     animation-name: navcolor;
-     animation-duration: 0.5s;
      background-color: #C3083F;
      cursor: pointer;
      padding: 5px;
    }
-@keyframes navcolor {
-     from{background-color: #6F2232}
-     to {background-color: #C3083F}
-   }
+.link:active{
+  background-color: #950741;
+}
