@@ -1,6 +1,6 @@
  body {
-     background-color: #1A1A1C;
-     color: white;
+     background-color: #dde7a6ff;
+     color: black;
    }
    .tab {
      float: left;
@@ -8,7 +8,7 @@
    }
    .nav {
      position: fixed;
-     background-color: #6F2232;
+     background-color: #8a628aff;
      top: 0;
      left: 0;
      font-size: 25px;
@@ -21,10 +21,10 @@
      border-radius: 5px;
    }
    .link:hover {
-     background-color: #C3083F;
+     background-color: #ad7badff;
      cursor: pointer;
      padding: 5px;
    }
 .link:active{
-  color: #4E4E50;
+  color: white;
 }
