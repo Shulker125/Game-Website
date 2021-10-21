@@ -1,8 +1,10 @@
 <html>
    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="main.css">
      <title> Download JAR Files </title>
   </head>
- <body>
+ <body id="one">
    <div class="nav">
      <div class="tab"><a class="link"> Tab 1</a></div>
      <div class="tab"><a class="link"> Tab 2</a></div>
@@ -25,28 +27,6 @@
  </body>
 
  <style>
-   .tab {
-     float: left;
-     padding: 10px;
-   }
-   .nav {
-     position: fixed;
-     background-color: blue;
-     top: 0;
-     left: 0;
-     font-size: 25px;
-     width: 100%;
-     z-index: 100;
-   }
-   .link {
-     padding: 5px;
-   }
-   .link:hover {
-     border-radius: 5px;
-     background-color: red;
-     cursor: pointer;
-     padding: 5px;
-   }
    .title {
      text-align: center;
      grid-column: 1 / 5;
@@ -63,5 +43,6 @@
      position: relative;
      top: 500px;
    }
+   
  </style> 
 </html>
