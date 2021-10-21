@@ -14,6 +14,7 @@
      <div class="tab"><a class="link"> Tab 6</a></div>
    </div>
        <div class="wrapper">
+         <div class="box cover"> </div>
          <div class="box"> 1</div>
          <div class="box"> 1</div>
          <div class="box"> 1</div>
@@ -27,11 +28,18 @@
  </body>
 
  <style>
+   .cover {
+     grid-colum: 1/ 5;
+     height: 50vw;
+   }
+   .img1 {
+     width: 100%;
+   }
    .wrapper {
      position: relative;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-     top: 70px;
+     top: 10vw;
    }
    .space {
      position: relative;
