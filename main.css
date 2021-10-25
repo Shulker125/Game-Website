@@ -7,8 +7,9 @@
      padding: 10px;
    }
    .nav {
-     position: fixed;
+     position: absolute;
      background-color: #8a628aff;
+     border-bottom: solid #dde7a6ff;
      top: 0;
      left: 0;
      font-size: 25px;
