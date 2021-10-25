@@ -1,6 +1,6 @@
 function scrollFunction() {
   
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150)
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40)
     
   
   document.getElementById('image-id').style.opacity = '0';
