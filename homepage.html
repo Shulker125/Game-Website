@@ -13,9 +13,9 @@
      <div class="tab"><a class="link"> Tab 5</a></div>
      <div class="tab"><a class="link"> Tab 6</a></div>
    </div>
-   <img src="https://raw.githubusercontent.com/Shulker125/Game-Website/main/Test%20Drawing.png" class="cover-img">
+   <img src="https://raw.githubusercontent.com/Shulker125/Game-Website/main/Test%20Drawing.png" class="cover-img" id="image-id">
        <div class="wrapper">
-         <div class="box cover"> </div>
+         <div class="box"> 1</div>
          <div class="box"> 1</div>
          <div class="box"> 1</div>
          <div class="box"> 1</div>
@@ -25,19 +25,22 @@
          <div class="box"> 1</div>
          <div class="box"> 1</div>
        </div>
-   <div class="space"> 1</div>
  </body>
 
  <style>
+   #image-id {
+     opacity: 1;
+     transition: opacity 0.5s;
+   }
    .cover-img {
      top: 5vw;
      position: fixed;
      z-index: 100;
-     left: 18.7%;
+     width: 47vw;
+     left: 26%;
    }
    .cover {
      grid-colum: 1/ 5;
-     height: 50vw;
    }
    .img1 {
      width: 100%;
@@ -46,11 +49,11 @@
      position: relative;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-     top: 60vw;
+     top: 40vw;
+     background-color: #8a628aff;
    }
-   .space {
-     position: relative;
-     top: 500px;
+   .box {
+     height: 14vw;
    }
    
  </style> 
